@@ -8,7 +8,7 @@ class Anagram
     savedWord = @s.split('')
     anagramList = []
     list.each do |listWord|
-      anagramList << listWord if listWord.split('').sort == savedWord
+      anagramList << listWord if listWord.split('').sort == savedWord.sort
     end
     return anagramList
   end
