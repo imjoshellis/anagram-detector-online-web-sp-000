@@ -12,3 +12,4 @@ class Anagram
     end
     return anagramList
   end
+end
